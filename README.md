@@ -1,7 +1,7 @@
 # CF-URL-Shortener
 simple URL Shortener for Cloudflare worker
 
-[中文](https://github.com/extremeblackliu/CF-URL-Shortener/edit/main/README.md)
+[中文](https://github.com/extremeblackliu/CF-URL-Shortener/blob/main/README_cn.md)
 
 # Deploy
 0. Change your domain in [Line 20](https://github.com/extremeblackliu/CF-URL-Shortener/blob/main/_worker.js#L20)
