@@ -20,6 +20,8 @@ Cloudflare worker 上的URL缩短器。
 ### 生成
 访问 `https://yoursitedomain.com/gen/长链`, 然后会得到一个短链, 譬如 `https://yoursitedomain.com/W1t2F`
 
+`长链` 必须先被 URL编码。
+
 ### 访问
 
 访问 `https://yoursitedomain.com/W1t2F`, 会被重定向到 `长链接`
