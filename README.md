@@ -22,6 +22,8 @@ simple URL Shortener for Cloudflare worker
 ### Generate
 Access `https://yoursitedomain.com/gen/LONG_URL_HERE`, result a shorten link, e.g. `https://yoursitedomain.com/W1t2F`
 
+The `LONG_URL` must be url encoded.
+
 ### Access
 
 Access `https://yoursitedomain.com/W1t2F`, redirect to `LONG_URL_HERE`
