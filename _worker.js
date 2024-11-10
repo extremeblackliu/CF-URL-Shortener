@@ -15,7 +15,7 @@ function RandomStr() {
 router.get('/gen/:url', async ({env, req}) => {
     
     const short = RandomStr();
-    await env.DB.put(short, decodeURIComponent(req.params.url)););
+    await env.DB.put(short, decodeURIComponent(req.params.url));
 
     return new Response('https://yoursitedomain.com/' + short);
 });
